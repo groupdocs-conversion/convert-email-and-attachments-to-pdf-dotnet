@@ -1,0 +1,39 @@
+From: Support <support@example.com>
+To: Operations <operations@example.com>
+Subject: Support case 4471 - gateway reports
+Date: Fri, 30 Oct 2026 10:00:00 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="case-boundary"
+
+--case-boundary
+Content-Type: text/plain; charset=us-ascii
+
+Hi,
+
+both monthly gateway reports are attached. They come from two systems that name the
+export the same way. The raw capture from the gateway is attached as well.
+
+Support
+--case-boundary
+Content-Type: text/csv; name="report.csv"
+Content-Disposition: attachment; filename="report.csv"
+Content-Transfer-Encoding: 7bit
+
+Month,Gateway,Requests,Errors
+2026-10,EU-1,1250430,212
+2026-10,US-1,1873204,388
+--case-boundary
+Content-Type: text/csv; name="report.csv"
+Content-Disposition: attachment; filename="report.csv"
+Content-Transfer-Encoding: 7bit
+
+Month,Gateway,Requests,Errors
+2026-09,EU-1,1198760,245
+2026-09,US-1,1802113,401
+--case-boundary
+Content-Type: application/octet-stream; name="gateway-capture.xyz"
+Content-Disposition: attachment; filename="gateway-capture.xyz"
+Content-Transfer-Encoding: base64
+
+AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=
+--case-boundary--
